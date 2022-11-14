@@ -40,10 +40,11 @@ body {
   display: grid;
   grid-template-areas:
     "img title"
+    "img subtitle1"
     "img subtitile";
   width: 365px;
   column-gap: 20px;
-  row-gap: 10px;
+  row-gap: 0px;
   border-radius: 20px;
   padding: 20px;
   background-color: var(--sectionbg);
@@ -63,6 +64,15 @@ body {
   line-height: 1.2;
   font-family: "Courier New";
   grid-area: title;
+  align-items: center;
+}
+
+.header__1subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  grid-area: subtitle1;
   align-items: center;
 }
 
